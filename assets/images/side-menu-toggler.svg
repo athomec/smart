@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="side-menu-toggler" transform="translate(-357 -65)">
+    <rect id="Rectangle_254" data-name="Rectangle 254" width="22" height="22" rx="5" transform="translate(357 65)" fill="#59e6eb"/>
+    <g id="arrow_forward_ios_black_24dp_1_" data-name="arrow_forward_ios_black_24dp (1)" transform="translate(375.615 83.615) rotate(180)">
+      <g id="Group_280" data-name="Group 280">
+        <path id="Path_626" data-name="Path 626" d="M0,0H15.231V15.231H0Z" fill="none"/>
+      </g>
+      <g id="Group_281" data-name="Group 281" transform="translate(3.866 1.299)">
+        <path id="Path_627" data-name="Path 627" d="M0,11.516l1.149,1.118L7.642,6.317,1.149,0,0,1.118l5.344,5.2Z" fill="#27292b"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<title>智慧工廠視覺化網頁</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="智慧工廠視覺化網頁,智慧工廠,視覺化">
+	<meta name="description" content="智慧工廠視覺化網頁" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta property="og:site_name" content="智慧工廠視覺化網頁" />
+	<meta property="og:image" content="assets/images/fb-img.png" />
+	<!--FB分享設定-->
+
+	<link rel="icon" href="assets/images/favicon.png" type="image/ico" />
+	<!--iconfont設定-->
+	<link rel="stylesheet" href="assets/style/all.css">
+	<!--css設定-->
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md fixed-top bg-primary-color px-2 px-md-3">
+			<div class="container-fluid">
+				<a class="navbar-brand d-flex white" href="index.html">
+					<img src="./assets/images/logo.svg" alt="智慧工廠視覺化網頁logo" class="me-2"> 智慧工廠視覺化網頁
+				</a>
+				<button class="navbar-toggler border-0 px-1" type="button" data-bs-toggle="collapse"
+					data-bs-target="#top-menu">
+					<img src="./assets/images/menu-bar.svg" alt="選單icon">
+				</button>
+
+				<div class="collapse navbar-collapse" id="top-menu">
+					<ul class="navbar-nav ms-auto mb-2 mb-md-0 js-tag-menu">
+						<li class="nav-item js-tag-button">
+							<a class="nav-link active" href="#"><img src="./assets/images/icon-guide.svg"
+									alt="廠內導覽icon">
+								<p>廠內導覽</p>
+							</a>
+						</li>
+						<li class="nav-item js-tag-button">
+							<a class="nav-link " href="#"><img src="./assets/images/icon-energy.svg" alt="能源運轉icon">
+								<p>能源運轉</p>
+							</a>
+						</li>
+						<li class="nav-item js-tag-button">
+							<a class="nav-link" href="#"><img src="./assets/images/icon-check.svg" alt="養護巡檢icon">
+								<p>養護巡檢</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-----側邊選單開始----->
+	<div class="d-flex">
+		<div class="side-menu js-side-menu">
+			<div class="side-menu-header">
+				導引列表
+				<img src="./assets/images/side-menu-toggler.svg" class="side-menu-toggler js-side-menu-toggler">
+			</div>
+			<div class="side-menu-body p-2">
+				<div class="scroll p-2">
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu1"
+						role="button" aria-expanded="false" aria-controls="menu1">
+						能源運轉
+					</a>
+					<div class="collapse" id="menu1" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">能源運轉1</a></li>
+							<li><a href="#">能源運轉2</a></li>
+							<li><a href="#">能源運轉3</a></li>
+						</ul>
+					</div>
+
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu2"
+						role="button" aria-expanded="false" aria-controls="menu2">
+						養護巡檢
+					</a>
+					<div class="collapse" id="menu2" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢1</a></li>
+							<li><a href="#">養護巡檢2</a></li>
+							<li><a href="#">養護巡檢3</a></li>
+						</ul>
+					</div>
+
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu3"
+						role="button" aria-expanded="false" aria-controls="menu3">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu3" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu4"
+						role="button" aria-expanded="false" aria-controls="menu4">
+						機械手臂B
+					</a>
+					<div class="collapse" id="menu4" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu5"
+						role="button" aria-expanded="false" aria-controls="menu5">
+						機械手臂C
+					</a>
+					<div class="collapse" id="menu5" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu6"
+						role="button" aria-expanded="false" aria-controls="menu6">
+						機械手臂D
+					</a>
+					<div class="collapse" id="menu6" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu7"
+						role="button" aria-expanded="false" aria-controls="menu7">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu7" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu8"
+						role="button" aria-expanded="false" aria-controls="menu8">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu8" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu9"
+						role="button" aria-expanded="false" aria-controls="menu9">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu9" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu10"
+						role="button" aria-expanded="false" aria-controls="menu10">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu10" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu11"
+						role="button" aria-expanded="false" aria-controls="menu11">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu11" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu12"
+						role="button" aria-expanded="false" aria-controls="menu12">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu12" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu13"
+						role="button" aria-expanded="false" aria-controls="menu13">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu13" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu14"
+						role="button" aria-expanded="false" aria-controls="menu14">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu14" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu15"
+						role="button" aria-expanded="false" aria-controls="menu15">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu15" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu16"
+						role="button" aria-expanded="false" aria-controls="menu16">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu16" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu17"
+						role="button" aria-expanded="false" aria-controls="menu17">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu17" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu18"
+						role="button" aria-expanded="false" aria-controls="menu18">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu18" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu19"
+						role="button" aria-expanded="false" aria-controls="menu19">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu19" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu20"
+						role="button" aria-expanded="false" aria-controls="menu20">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu20" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+					<a class="side-menu-item js-side-menu-item collapsed" data-bs-toggle="collapse" href="#menu21"
+						role="button" aria-expanded="false" aria-controls="menu21">
+						機械手臂A
+					</a>
+					<div class="collapse" id="menu21" data-bs-parent=".side-menu-body">
+						<ul class="side-menu-submenu js-side-menu-submenu px-4 py-3">
+							<li><a href="#">養護巡檢</a></li>
+							<li><a href="#">能源運轉</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="side-more js-side-more">
+				<p class="side-more-header">機械手臂B - 養護巡檢</p>
+				<div class="side-more-body p-2">
+					<ul class="js-tag-menu scroll p-2 h-100">
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">養護巡檢A
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉B
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉C
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉C
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉D
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉E
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉F
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉G
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉H
+							</a>
+						</li>
+						<li class="js-tag-button">
+							<a href="#" class="side-more-item">
+								<img src="./assets/images/icon-dot.svg" class="side-more-icon me-2">能源運轉I
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-----側邊選單結束----->
+		<!-----主要內容開始----->
+		<div class="side-content js-side-content">
+			<button class="btn border-0 side-menu-mobile-toggler js-side-menu-mobile-toggler p-0" type="button">
+				<img src="./assets/images/icon-guide-menu.svg" alt="導引列表icon">
+			</button>
+            <div class="alert bg-alert-color fade show white rounded-0">
+               <img src="./assets/images/icon-error.svg" alt="警告icon" class="me-2 alert-icon" role="alert">
+               <p class="mt-2">點某些東西跳出的警告視窗</p>
+               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+			<ul class="btn-menu js-tag-menu js-btn-menu">
+				<li class="btn-menu-item d-none d-md-block js-tag-button">
+					<button class="btn btn-menu-dark p-0">
+						<img src="./assets/images/icon-cloud.svg" class="btn-menu-icon">
+					</button>
+				</li>
+				<li class="btn-menu-item d-block d-md-none js-tag-button">
+					<button class="btn btn-menu-dark p-0 js-btn-guide" data-target="function-guide">
+						<img src="./assets/images/icon-square.svg" class="btn-menu-icon">
+					</button>
+				</li>
+				<li class="btn-menu-item js-tag-button">
+					<button class="btn btn-menu-dark p-0">
+						<img src="./assets/images/icon-ruler.svg" class="btn-menu-icon">
+					</button>
+				</li>
+				<li class="btn-menu-item js-tag-button">
+					<button class="btn btn-menu-dark p-0">
+						<img src="./assets/images/icon-escape.svg" class="btn-menu-icon">
+					</button>
+				</li>
+				<li class="btn-menu-item js-tag-button">
+					<button class="btn btn-menu-light p-0 active" onclick="location.href='index.html'">
+						<img src="./assets/images/icon-locate.svg" class="btn-menu-icon">
+					</button>
+				</li>
+			</ul>
+			<div class="map-content" style="background: url('assets/images/demo-pic3.jpg'); background-size: cover;">
+			</div>
+			<div class="function py-2 py-sm-3">
+				<div class="container-fluid">
+					<div class="row g-0 g-sm-3 align-items-stretch">
+						<div class="col-lg-4 function-guide">
+							<div class="function-card p-4 pb-3 h-100">
+								<h5 class="function-card-header secondary-color">相關區域導引</h5>
+								<div class="scroll">
+							</div>
+							</div>
+						</div>
+                        <div class="col">
+							<div class="function-card h-100">
+								<div class="row align-items-stretch h-100">
+									<div class="col">
+										<div class="p-2 h-100">
+											<div class="function-map h-100" style="background: url('assets/images/demo-pic2.jpg'); background-size: cover;">
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-----主要內容結束----->
+
+	</div>
+
+	<!-- SCRIPTS -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script>
+		$(function () {
+			$(".modal-content").draggable({
+				handle: ".modal-header"
+			});
+		});
+	</script>
+	<!--自訂JS-->
+</body>
+
+</html>

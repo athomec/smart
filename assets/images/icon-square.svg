@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="icon-square" transform="translate(-3799 -1237)">
+    <g id="tab_unselected_black_24dp" transform="translate(3803 1241)">
+      <path id="Path_635" data-name="Path 635" d="M0,0H35.976V35.976H0Z" fill="none"/>
+      <path id="Path_636" data-name="Path 636" d="M1,11.994H4V9H1Zm0,6H4v-3H1ZM1,6H4V3A3.007,3.007,0,0,0,1,6ZM12.992,29.982h3v-3h-3ZM1,23.986H4v-3H1Zm3,6v-3H1A3.007,3.007,0,0,0,4,29.982ZM30.98,3H18.988v8.994h14.99V6A3.007,3.007,0,0,0,30.98,3Zm0,20.986h3v-3h-3ZM12.992,6h3V3h-3ZM7,29.982h3v-3H7ZM7,6h3V3H7ZM30.98,29.982a3.007,3.007,0,0,0,3-3h-3Zm0-11.992h3v-3h-3ZM18.988,29.982h3v-3h-3Zm6,0h3v-3h-3Z" transform="translate(0.499 1.497)" fill="#59e6eb"/>
+    </g>
+    <rect id="Rectangle_266" data-name="Rectangle 266" width="44" height="44" transform="translate(3799 1237)" fill="none"/>
+  </g>
+</svg>
