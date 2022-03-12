@@ -13048,7 +13048,6 @@ input::placeholder {
 /*--------------------視窗開始------------------*/
 .modal-content {
   width: 360px;
-  height: 420px;
   top: 15%;
   left: 50%;
   margin-left: -180px;
@@ -13061,6 +13060,12 @@ input::placeholder {
     .modal-content {
       width: 300px;
       margin-left: -150px; } }
+
+.modal-body {
+  height: 330px; }
+  @media (max-width: 768px) {
+    .modal-body {
+      height: 280px; } }
 
 .modal-pic {
   border-radius: 8px;
@@ -13127,9 +13132,12 @@ input::placeholder {
 .map-content {
   width: 100%;
   height: calc(100vh - 215px); }
+  @media (max-width: 768px) {
+    .map-content {
+      height: calc(100vh - 195px); } }
   @media (max-width: 576px) {
     .map-content {
-      height: calc(100vh - 200px); } }
+      height: calc(100vh - 177px); } }
 
 .function {
   position: relative; }
@@ -13159,7 +13167,8 @@ input::placeholder {
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    /*ipnone6*/ }
     @media (max-width: 1200px) {
       .function-btn {
         font-size: 0.9em;
@@ -13171,6 +13180,11 @@ input::placeholder {
         padding: 4px 10px; }
         .function-btn img {
           width: 12px; } }
+    @media (max-width: 375px) {
+      .function-btn {
+        padding: 4px 8px; }
+        .function-btn img {
+          width: 10px; } }
     .function-btn:hover {
       color: #fff;
       background: #4D6B82; }
@@ -13179,6 +13193,9 @@ input::placeholder {
   background: #27292B;
   border-radius: 10px;
   min-height: 180px; }
+  @media (max-width: 768px) {
+    .function-card {
+      min-height: 160px; } }
   .function-card-header {
     font-size: 1.2em;
     font-weight: 100;
