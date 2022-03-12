@@ -13119,8 +13119,10 @@ input::placeholder {
           align-items: flex-start; }
   @media (max-width: 768px) {
     .alert {
-      bottom: 500px;
-      width: 300px; } }
+      bottom: 200px;
+      width: 300px;
+      right: auto;
+      left: 0; } }
   .alert-icon {
     width: 40px; }
   .alert .btn-close {
