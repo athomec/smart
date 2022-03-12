@@ -13195,10 +13195,8 @@ input::placeholder {
         .function-btn img {
           width: 12px; } }
     @media (max-width: 320px) {
-      .function-btn {
-        padding: 4px 5px; }
-        .function-btn img {
-          display: none; } }
+      .function-btn img {
+        display: none; } }
     .function-btn:hover {
       color: #fff;
       background: #4D6B82; }
