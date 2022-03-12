@@ -13269,6 +13269,10 @@ input::placeholder {
     .function-guide .function-card {
       border: 4px solid #4D6B82; } }
 
+@media (min-width: 768px) {
+  .function-guide {
+    display: block !important; } }
+
 /*------------------------表格開始----------------------------*/
 .rwd-table {
   overflow: hidden;

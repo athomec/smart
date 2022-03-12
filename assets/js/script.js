@@ -96,9 +96,9 @@ $(function () {//JS開頭
 
 
 	RESIZE();
-	$(window).resize(function() {
+	/*$(window).resize(function() {
 		RESIZE();
-	  });
+	  });*/
 	function RESIZE() {
 		WINDOWH = $(window).height();
 		WINDOW = $(window).width();
@@ -115,7 +115,6 @@ $(function () {//JS開頭
 			});
 		} else {
 			$(".js-side-menu").removeClass("open");
-			$("." + target).show(200);
 		}
 	}
 

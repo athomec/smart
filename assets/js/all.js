@@ -18865,9 +18865,9 @@ $(function () {
     var wh = $(window).height(); //視窗高度
   });
   RESIZE();
-  $(window).resize(function () {
-    RESIZE();
-  });
+  /*$(window).resize(function() {
+  	RESIZE();
+    });*/
 
   function RESIZE() {
     WINDOWH = $(window).height();
@@ -18886,7 +18886,6 @@ $(function () {
       });
     } else {
       $(".js-side-menu").removeClass("open");
-      $("." + target).show(200);
     }
   }
 }); //JS尾端
