@@ -16,10 +16,15 @@ $(function () {//JS開頭
 
 	//---------------------頁籤設定------------------------
 	$('.js-tag-menu').find(".js-tag-button").click(function () {
-		$(this).find("a").toggleClass("active");
-		$(this).find("button").toggleClass("active");
-		$(this).siblings('.js-tag-button').find("a").removeClass('active');
-		$(this).siblings('.js-tag-button').find("button").removeClass('active');
+		if($(this).find("button").hasClass("js-btn-guide")){
+			$(this).find("a").toggleClass("active");
+			$(this).find("button").toggleClass("active");
+		}else{
+			$(this).find("a").toggleClass("active");
+		    $(this).find("button").toggleClass("active");
+			$(this).siblings('.js-tag-button').find("a").removeClass('active');
+			$(this).siblings('.js-tag-button').find("button").removeClass('active');
+		}
 	});
 
 	//第三層內容設定
