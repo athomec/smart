@@ -42,6 +42,10 @@ $(function () {//JS開頭
 		let target = $(this).attr("data-bs-dismiss");
 		$("." + target).fadeOut(200);
 	});
+	//關閉下方導覽
+	$(".js-function-close").click(function () {
+		$(".js-map-content").addClass("open");
+	});
 
 
 

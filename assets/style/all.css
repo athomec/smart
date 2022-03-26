@@ -13159,7 +13159,7 @@ input::placeholder {
   @media (max-width: 576px) {
     .map-content {
       height: calc(100vh - 258px); } }
-  .map-content[data-function="none"] {
+  .map-content.open {
     height: calc(100vh - 48px) !important; }
 
 .function {
@@ -13287,7 +13287,8 @@ input::placeholder {
   display: flex;
   right: 8px;
   bottom: 230px;
-  z-index: 10; }
+  z-index: 10;
+  /*ipnone5*/ }
   @media (max-width: 768px) {
     .btn-menu {
       -webkit-box-orient: vertical;
@@ -13297,6 +13298,12 @@ input::placeholder {
   @media (max-width: 576px) {
     .btn-menu {
       bottom: 215px; } }
+  @media (max-width: 320px) {
+    .btn-menu {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
   .btn-menu[data-function="none"] {
     bottom: 29px !important; }
   .btn-menu .btn {
