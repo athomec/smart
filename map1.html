@@ -345,38 +345,10 @@
 		<!-----側邊選單結束----->
 		<!-----主要內容開始----->
 		<div class="side-content js-side-content">
-			<!--視窗開始-->
-			<div class="modal-content">
-				<div class="modal-header border-0 pb-0">
-					<button type="button" class="btn-close js-close" data-bs-dismiss="modal-content" aria-label="Close"></button>
-				</div>
-				<div class="modal-body pt-2 scroll">
-					<div class="modal-pic mb-3"
-						style="background: url('assets/images/demo-pic.jpg'); background-size: cover;">
-					</div>
-					<h5 class="modal-title">能源運轉D</h5>
-					<p class="primary-xlight-color font-xs-md">說明此區域的視窗說明此區域的視窗說明此區
-						域的視窗說明此區域的視窗說明</p>
-				</div>
-				<div class="modal-footer p-0 border-0">
-					<div class="row g-0 w-100 m-0">
-						<div class="col-6">
-							<button type="button" class="btn btn-dark-primary-color w-100 rounded-0 py-2">
-								<img src="./assets/images/icon-route.svg" alt="此地導航icon" class="me-2"> 此地導航
-							</button>
-						</div>
-						<div class="col-6">
-							<button type="button" class="btn btn-dark-primary-color w-100 rounded-0 py-2">
-								<img src="./assets/images/icon-ahead.svg" alt="前往地點icon" class="me-2"> 前往地點</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--視窗結束-->
 			<button class="btn border-0 side-menu-mobile-toggler js-side-menu-mobile-toggler p-0" type="button">
 				<img src="./assets/images/icon-guide-menu.svg" alt="導引列表icon">
 			</button>
-			<ul class="btn-menu js-tag-menu js-btn-menu">
+			<ul class="btn-menu js-tag-menu js-btn-menu" data-function="none">
 				<li class="btn-menu-item d-none d-md-block js-tag-button">
 					<button class="btn btn-menu-dark p-0">
 						<img src="./assets/images/icon-cloud.svg" class="btn-menu-icon">
@@ -398,74 +370,14 @@
 					</button>
 				</li>
 				<li class="btn-menu-item js-tag-button">
-					<button class="btn btn-menu-light p-0" onclick="location.href='map.html'">
+					<button class="btn btn-menu-light p-0 active" onclick="location.href='index.html'">
 						<img src="./assets/images/icon-locate.svg" class="btn-menu-icon">
 					</button>
 				</li>
 			</ul>
-			<div class="map-content" style="background: url('assets/images/demo-pic.jpg'); background-size: cover;">
+			<div class="map-content" style="background: url('assets/images/demo-pic3.jpg'); background-size: cover;" data-function="none">
 			</div>
-			<div class="function py-2 py-sm-3">
-				<div class="container-fluid">
-					<div class="row g-0 g-sm-3 align-items-stretch">
-						<div class="col-lg-4 function-guide">
-							<div class="function-card p-4 pb-3 h-100">
-								<h5 class="function-card-header secondary-color">相關區域導引</h5>
-								<div class="scroll">
-								<ul class="row">
-									<li class="col-md-6 mb-2"><a href="#" class="d-flex link-white font-xlight"><img
-												src="./assets/images/icon-triangle.svg" class="me-2"> 空間量測</a></li>
-									<li class="col-md-6 mb-2"><a href="#" class="d-flex link-white font-xlight"><img
-												src="./assets/images/icon-triangle.svg" class="me-2"> 空間量測</a></li>
-									<li class="col-md-6 mb-2"><a href="#" class="d-flex link-white font-xlight"><img
-												src="./assets/images/icon-triangle.svg" class="me-2"> 空間量測</a></li>
-									<li class="col-md-6 mb-2"><a href="#" class="d-flex link-white font-xlight"><img
-												src="./assets/images/icon-triangle.svg" class="me-2"> 空間量測</a></li>
-									<li class="col-md-6 mb-2"><a href="#" class="d-flex link-white font-xlight"><img
-												src="./assets/images/icon-triangle.svg" class="me-2"> 空間量測</a></li>
-									<li class="col-md-6"><a href="#" class="d-flex link-white font-xlight"><img
-												src="./assets/images/icon-triangle.svg" class="me-2"> 空間量測</a></li>
-								</ul>
-							</div>
-							</div>
-						</div>
-						<div class="col-lg-8">
-							<div class="function-card h-100">
-								<div class="row align-items-stretch h-100 gx-3 gx-md-4">
-									<div class="col-7">
-										<div class="d-flex flex-column justify-content-between py-3 py-md-4 ps-3 ps-md-4 h-100">
-										<div>
-											<h5 class="function-card-header white">
-												工廠內部設施<span
-													class="secondary-color ms-md-2 d-block d-md-inline mt-1 mt-md-0 font-xxxs">預估時間：2分35秒</span>
-											</h5>
-											<p class="gray-light font-sm font-xs-md mb-2 mb-md-0">開始 請向左直行</p>
-										</div>
-										<div class="function-btn-group">
-												<button class="btn function-btn py-1" data-fn="next">
-													下一步<img src="./assets/images/icon-arrow.svg" alt="下一步icon" class="ms-1">
-												</button>
-												<button class="btn function-btn py-1" data-fn="play">
-													自動播放<img src="./assets/images/icon-play.svg" alt="自動播放icon" class="ms-1">
-												</button>
-												<button class="btn function-btn py-1" data-fn="close">
-												關閉導引<img src="./assets/images/icon-close-circle.svg" alt="關閉導引icon" class="ms-1">
-											</button>
-										</div>
-									</div>
-									</div>
-									<div class="col-5">
-										<div class="p-2 ps-0 h-100">
-											<div class="function-map h-100" style="background: url('assets/images/demo-pic2.jpg'); background-size: cover;">
-										</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 
 		</div>
 		<!-----主要內容結束----->
