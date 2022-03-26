@@ -13304,8 +13304,11 @@ input::placeholder {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
-  .btn-menu[data-function="none"] {
-    bottom: 29px !important; }
+  .btn-menu.open {
+    bottom: 25px !important; }
+    @media (max-width: 768px) {
+      .btn-menu.open {
+        bottom: 15px !important; } }
   .btn-menu .btn {
     border: none;
     display: -webkit-box;
