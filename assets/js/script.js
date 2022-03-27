@@ -45,7 +45,7 @@ $(function () {//JS開頭
 	//關閉下方導覽
 	$(".js-function-close").click(function () {
 		$(".js-map-content").addClass("open");
-		$(".js-function").fadeOut(200);
+		$(".js-function").addClass("open");
 		$(".js-btn-menu").addClass("open");
 	});
 

@@ -13152,7 +13152,10 @@ input::placeholder {
 .map-content {
   width: 100%;
   margin-top: 48px;
-  height: calc(100vh - 263px); }
+  height: calc(100vh - 263px);
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
   @media (max-width: 768px) {
     .map-content {
       height: calc(100vh - 277px); } }
@@ -13176,6 +13179,8 @@ input::placeholder {
     background: -o-linear-gradient(left, #59E6EB 30%, #fff 100%);
     background: linear-gradient(to right, #59E6EB 30%, #fff 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+  .function.open {
+    display: none; }
   .function-btn {
     width: 100%;
     border-radius: 50px;
@@ -13215,26 +13220,34 @@ input::placeholder {
       .function-btn[data-fn="close"] {
         width: 100%; } }
     .function-btn[data-fn="play"] {
-      margin-left: 10px; }
+      margin-left: 10px;
+      /*ipnone6*/ }
       @media (max-width: 768px) {
         .function-btn[data-fn="play"] {
-          width: 49%;
-          margin-left: 0;
-          margin-bottom: 10px; } }
-      @media (max-width: 576px) {
-        .function-btn[data-fn="play"] {
-          width: 52%; } }
-    .function-btn[data-fn="next"] {
-      width: 90%;
-      margin-left: 10px; }
-      @media (max-width: 768px) {
-        .function-btn[data-fn="next"] {
           width: 49%;
           margin-left: 2%;
           margin-bottom: 10px; } }
       @media (max-width: 576px) {
+        .function-btn[data-fn="play"] {
+          width: 52%; } }
+      @media (max-width: 375px) {
+        .function-btn[data-fn="play"] {
+          width: 53%; } }
+    .function-btn[data-fn="next"] {
+      width: 90%;
+      margin-left: 10px;
+      /*ipnone6*/ }
+      @media (max-width: 768px) {
+        .function-btn[data-fn="next"] {
+          width: 49%;
+          margin-left: 0;
+          margin-bottom: 10px; } }
+      @media (max-width: 576px) {
         .function-btn[data-fn="next"] {
           width: 46%; } }
+      @media (max-width: 375px) {
+        .function-btn[data-fn="next"] {
+          width: 45%; } }
 
 .function-btn-group {
   display: -webkit-box;
@@ -13288,6 +13301,9 @@ input::placeholder {
   right: 8px;
   bottom: 230px;
   z-index: 10;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   /*ipnone5*/ }
   @media (max-width: 768px) {
     .btn-menu {
